@@ -8,7 +8,7 @@ git config --global user.email <email>
 
 ```
 
-## 명령어
+## Local 명령어
 - `git init` 현재 폴더에 git 폴더 생성
     - `.git` repository를 생성 하는 명령어
     
@@ -21,3 +21,19 @@ git config --global user.email <email>
     - `staging area`에 올라간 파일들의 스냅샷을 찍어 `.git directory`에 저장한다.
     - 일반적으로 -m 옵션을 넣어서 커밋메세지를 추가한다.
     - `git commit -m "message"`
+
+
+## 원격 저장소
+- `git remote`
+    - 원격저장소 주소를 관리하기 위한 명령어
+    - `git remote add origin <url>`
+- git push
+    - 원격저장소에 로컬 코드를 업로드 하기 위한 명령어
+    - `git push <remote> <branch>`
+    
+
+
+
+
+
+
