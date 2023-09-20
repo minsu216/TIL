@@ -1,4 +1,4 @@
-## 인스타 크롤링
+# 인스타 크롤링 
 - 셀레니움, time import 과정
 ```python
 from selenium import webdriver
@@ -75,3 +75,14 @@ df.to_excel('Son.xlsx',index=False)
 
 
 ```
+
+
+
+## 스크래핑 꿀팁
+- 스크래핑 연습
+    - 신문기사 일정기간, 키워드 및 언론사
+    - 댓글, 상품, 음악 ,영화 등등 -> 오피니언 마이닝
+    - 도서에 실린 원본 및 Text등이 존재
+    - 도서(bookcorpus)
+    - 커뮤니티, 블로그, 지식인 등등
+    
